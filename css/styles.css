@@ -1,0 +1,130 @@
+body{
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+p{
+  line-height: 2;
+}
+.top-container{
+  background-color: #EAF6F6;
+  text-align: center;
+  padding-top: 100px;
+  position: relative;  /*setting position of the parent to relative so we can change the position of cloud relative to parent i.e., div not to the body.*/
+}
+.middle-container{
+  margin: 100px 0;
+}
+hr{
+  border-color: #EAF6F6;
+  width: 5%;
+  border-style: dotted;
+  border-bottom: none;
+  border-width: thick;
+  margin: 100px auto;
+}
+.intro{
+  width: 50%;
+  margin:auto;
+}
+.profile{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.skills{
+  text-align: center;
+}
+.contact-me{
+  text-align: center;
+  line-height: 3;
+  width: 50%;
+  margin: auto;
+}
+.bottom-container{
+  text-align: center;
+  line-height: 0;
+  padding: 30px 0 10px;
+  background-color:#66BFBF;
+  margin-top: 30px;
+
+}
+h1
+{
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin:50px auto 0 auto;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #11999E;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+   color: #EAF6F6;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.coding-img{
+  width: 25%;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  float: left;
+}
+.teaching-img{
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+/*.programming-descr
+{
+  clear: left;
+} doesn't wrap the text arount the image*/
+.top-cloud{
+  position: absolute; /*if use only absolute it will randomly put the clouds*/
+  right: 300px;
+  top:50px;
+}
+.bottom-cloud{
+  position:absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fcc63c;
+  text-decoration: none;
+}
+.copyright{
+  margin: 30px auto;
+  color: #EAF6F6;
+}
